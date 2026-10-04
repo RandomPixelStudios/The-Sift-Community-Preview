@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 26043004,
+    "separation": 5,
+    "spacing": 14
+  },
+  "structures": [
+    {
+      "structure": "thesift:forgotten_shrine",
+      "weight": 1
+    }
+  ]
+}

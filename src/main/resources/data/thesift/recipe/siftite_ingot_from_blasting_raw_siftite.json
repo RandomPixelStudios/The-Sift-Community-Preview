@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "siftite_ingot",
+  "ingredient": "thesift:raw_siftite",
+  "result": {
+    "id": "thesift:siftite_ingot"
+  }
+}

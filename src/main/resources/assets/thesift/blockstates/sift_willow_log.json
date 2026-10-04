@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thesift:block/sift_willow_log_x"
+    },
+    "axis=y": {
+      "model": "thesift:block/sift_willow_log_y"
+    },
+    "axis=z": {
+      "model": "thesift:block/sift_willow_log_z"
+    }
+  }
+}

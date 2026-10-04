@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:duskwood_log",
+    "thesift:duskwood_wood",
+    "thesift:stripped_duskwood_log",
+    "thesift:stripped_duskwood_wood"
+  ]
+}

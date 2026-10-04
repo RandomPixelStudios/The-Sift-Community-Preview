@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "thesift",
+	"version": "${version}",
+	"name": "The Sift",
+	"description": "Adds The Sift, a peaceful, vivid dimension reached through the Ancient City portal.",
+	"authors": [
+		"RandomPixxelStudios"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/thesift/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.randompixxelstudios.thesift.TheSift"
+		],
+		"client": [
+			"com.randompixxelstudios.thesift.client.TheSiftClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"mixins": [
+		"thesift.mixins.json"
+	],
+	"contact": {
+		"homepage": "https://www.minecraft.net/"
+	}
+}

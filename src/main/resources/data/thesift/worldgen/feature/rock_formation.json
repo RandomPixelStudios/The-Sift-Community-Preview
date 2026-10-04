@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:template",
+  "templates": [
+    {
+      "data": {
+        "id": "thesift:rock/arch_0"
+      },
+      "weight": 2
+    },
+    {
+      "data": {
+        "id": "thesift:rock/arch_1"
+      },
+      "weight": 2
+    },
+    {
+      "data": {
+        "id": "thesift:rock/arch_2"
+      },
+      "weight": 2
+    },
+    {
+      "data": {
+        "id": "thesift:rock/arch_3"
+      },
+      "weight": 2
+    },
+    {
+      "data": {
+        "id": "thesift:rock/spire_0"
+      },
+      "weight": 3
+    },
+    {
+      "data": {
+        "id": "thesift:rock/spire_1"
+      },
+      "weight": 3
+    },
+    {
+      "data": {
+        "id": "thesift:rock/spire_2"
+      },
+      "weight": 3
+    },
+    {
+      "data": {
+        "id": "thesift:rock/spire_3"
+      },
+      "weight": 3
+    }
+  ]
+}

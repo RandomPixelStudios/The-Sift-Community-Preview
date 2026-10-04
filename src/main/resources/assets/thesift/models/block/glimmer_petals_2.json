@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flowerbed_2",
+  "textures": {
+    "flowerbed": "thesift:block/glimmer_petals",
+    "stem": "thesift:block/glimmer_petals_stem"
+  }
+}

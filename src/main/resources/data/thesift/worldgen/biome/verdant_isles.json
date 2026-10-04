@@ -1,0 +1,167 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.overworld.flower_forest",
+        "min_delay": 12000,
+        "max_delay": 24000
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "thesift:nuzzle",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 10
+            },
+            {
+              "type": "thesift:singer",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 6
+            },
+            {
+              "type": "thesift:pearl_stag",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 8
+            },
+            {
+              "type": "thesift:bumblehog",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 10
+            },
+            {
+              "type": "thesift:blub",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 8
+            }
+          ],
+          "monster": [
+            {
+              "type": "thesift:shade",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 40
+            },
+            {
+              "type": "thesift:gloomstalker",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 30
+            }
+          ],
+          "ambient": [
+            {
+              "type": "thesift:lumoth",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 4
+            }
+          ]
+        }
+      },
+      "modifier": "override"
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:spore_blossom_air"
+          },
+          "probability": 0.003
+        }
+      ],
+      "modifier": "override"
+    },
+    "minecraft:visual/fog_color": "#d0f6e4",
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.3
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#8fd8ff"
+  },
+  "features": [
+    [],
+    [
+      "thesift:lake_ichor_surface"
+    ],
+    [],
+    [
+      "thesift:soul_crystal_geode"
+    ],
+    [
+      "thesift:boulder_meadow",
+      "thesift:rock_formations"
+    ],
+    [],
+    [
+      "thesift:blob_meadow_rock_deep",
+      "thesift:blob_rose_marble",
+      "thesift:blob_sift_gravel",
+      "thesift:blob_veilstone",
+      "thesift:ore_jade",
+      "thesift:ore_lumenite",
+      "thesift:ore_meadow_rock",
+      "thesift:ore_sift_coal",
+      "thesift:ore_sift_copper",
+      "thesift:ore_sift_diamond",
+      "thesift:ore_sift_gold",
+      "thesift:ore_sift_iron",
+      "thesift:ore_siftite",
+      "thesift:ore_soul_crystal"
+    ],
+    [
+      "thesift:cave_crystal_columns",
+      "thesift:cave_glowcap",
+      "thesift:spring_ichor",
+      "thesift:spring_water"
+    ],
+    [],
+    [
+      "thesift:patch_bluebell",
+      "thesift:patch_glimmer_petals",
+      "thesift:patch_mint_grass",
+      "thesift:patch_pale_lily",
+      "thesift:patch_tall_mint_grass",
+      "thesift:trees_verdant"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.7
+}

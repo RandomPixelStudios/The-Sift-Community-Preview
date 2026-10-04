@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:siftite_helmet",
+    "thesift:carapace_helmet",
+    "thesift:lumenite_helmet",
+    "thesift:jade_helmet",
+    "thesift:warden_helmet"
+  ]
+}

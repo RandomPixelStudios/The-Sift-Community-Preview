@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 26043007,
+    "separation": 4,
+    "spacing": 10
+  },
+  "structures": [
+    {
+      "structure": "thesift:bone_arch",
+      "weight": 1
+    }
+  ]
+}

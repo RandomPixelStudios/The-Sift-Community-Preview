@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "result": {
+    "id": "thesift:echo_eye",
+    "count": 2
+  },
+  "ingredients": [
+    "minecraft:ender_eye",
+    "minecraft:echo_shard",
+    "thesift:soul_shard"
+  ]
+}

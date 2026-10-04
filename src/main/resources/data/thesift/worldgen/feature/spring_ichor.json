@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:spring_feature",
+  "state": {
+    "id": "thesift:ichor",
+    "properties": {
+      "falling": "true"
+    }
+  },
+  "valid_blocks": [
+    "thesift:sift_stone",
+    "thesift:meadow_rock",
+    "thesift:orange_carapace",
+    "thesift:red_carapace",
+    "thesift:blue_carapace",
+    "thesift:rust_soil"
+  ]
+}

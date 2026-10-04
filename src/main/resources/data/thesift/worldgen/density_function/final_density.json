@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:min",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:sub",
+        "left": "thesift:height",
+        "right": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "from_coordinate": -64,
+          "to_coordinate": 320,
+          "from_value": -64.0,
+          "to_value": 320.0
+        }
+      },
+      "right": 0.1
+    },
+    "right": {
+      "type": "minecraft:interpolated",
+      "cell_size_xz": 4,
+      "cell_size_y": 4,
+      "input": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:sub",
+          "left": 0.42,
+          "right": {
+            "type": "minecraft:noise",
+            "noise": "thesift:cavern",
+            "xz_scale": 1.0,
+            "y_scale": 1.6
+          }
+        },
+        "right": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:sub",
+                "left": {
+                  "type": "minecraft:gradient",
+                  "axis": "y",
+                  "from_coordinate": -64,
+                  "to_coordinate": 320,
+                  "from_value": -64.0,
+                  "to_value": 320.0
+                },
+                "right": {
+                  "type": "minecraft:sub",
+                  "left": "thesift:height",
+                  "right": 16.0
+                }
+              },
+              "right": 0.25
+            },
+            "min": 0.0,
+            "max": 10.0
+          },
+          "right": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:sub",
+                "left": -54.0,
+                "right": {
+                  "type": "minecraft:gradient",
+                  "axis": "y",
+                  "from_coordinate": -64,
+                  "to_coordinate": 320,
+                  "from_value": -64.0,
+                  "to_value": 320.0
+                }
+              },
+              "right": 0.25
+            },
+            "min": 0.0,
+            "max": 10.0
+          }
+        }
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:beardifier"
+  }
+}

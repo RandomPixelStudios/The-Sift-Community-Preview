@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "thesift:jade"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "thesift:jade"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "thesift:jade"
+      }
+    ]
+  }
+}

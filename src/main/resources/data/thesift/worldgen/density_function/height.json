@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:floor",
+    "input": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:add",
+          "left": 66.0,
+          "right": {
+            "type": "minecraft:mul",
+            "left": "thesift:continents",
+            "right": 18.0
+          }
+        },
+        "right": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:noise",
+              "noise": "thesift:hills",
+              "xz_scale": 1.0,
+              "y_scale": 0.0
+            },
+            "right": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:add",
+                  "left": "thesift:continents",
+                  "right": 0.55
+                },
+                "min": 0.0,
+                "max": 1.0
+              },
+              "right": 16.0
+            }
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:noise",
+              "noise": "thesift:detail",
+              "xz_scale": 1.0,
+              "y_scale": 0.0
+            },
+            "right": 3.0
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:min",
+          "left": {
+            "type": "minecraft:add",
+            "left": "thesift:continents",
+            "right": 0.25
+          },
+          "right": 0.0
+        },
+        "right": 48.0
+      }
+    },
+    "multiple": 4.0
+  }
+}

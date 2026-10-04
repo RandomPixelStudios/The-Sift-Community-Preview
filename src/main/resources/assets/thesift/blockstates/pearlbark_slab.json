@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thesift:block/pearlbark_slab"
+    },
+    "type=double": {
+      "model": "thesift:block/pearlbark_planks"
+    },
+    "type=top": {
+      "model": "thesift:block/pearlbark_slab_top"
+    }
+  }
+}

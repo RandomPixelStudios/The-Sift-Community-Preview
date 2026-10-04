@@ -1,0 +1,160 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.overworld.lush_caves",
+        "min_delay": 12000,
+        "max_delay": 24000
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "thesift:blub",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 5
+              },
+              "weight": 12
+            },
+            {
+              "type": "thesift:singer",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 6
+            },
+            {
+              "type": "thesift:bumblehog",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 8
+            },
+            {
+              "type": "thesift:pearl_stag",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 3
+              },
+              "weight": 6
+            }
+          ],
+          "monster": [
+            {
+              "type": "thesift:shade",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 40
+            },
+            {
+              "type": "thesift:gloomstalker",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 30
+            }
+          ],
+          "ambient": [
+            {
+              "type": "thesift:lumoth",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 8
+            }
+          ]
+        }
+      },
+      "modifier": "override"
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:glow"
+          },
+          "probability": 0.006
+        }
+      ],
+      "modifier": "override"
+    },
+    "minecraft:visual/fog_color": "#bfe6f2",
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.3
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#6fb6ff"
+  },
+  "features": [
+    [],
+    [
+      "thesift:lake_ichor_surface"
+    ],
+    [],
+    [
+      "thesift:soul_crystal_geode"
+    ],
+    [
+      "thesift:boulder_veilstone"
+    ],
+    [],
+    [
+      "thesift:blob_meadow_rock_deep",
+      "thesift:blob_rose_marble",
+      "thesift:blob_sift_gravel",
+      "thesift:blob_veilstone",
+      "thesift:ore_jade",
+      "thesift:ore_lumenite",
+      "thesift:ore_meadow_rock",
+      "thesift:ore_sift_coal",
+      "thesift:ore_sift_copper",
+      "thesift:ore_sift_diamond",
+      "thesift:ore_sift_gold",
+      "thesift:ore_sift_iron",
+      "thesift:ore_siftite",
+      "thesift:ore_soul_crystal"
+    ],
+    [
+      "thesift:cave_crystal_columns",
+      "thesift:cave_glowcap",
+      "thesift:spring_ichor",
+      "thesift:spring_water"
+    ],
+    [],
+    [
+      "thesift:fallen_sift_willow",
+      "thesift:patch_echo_bloom",
+      "thesift:patch_glow_sprouts",
+      "thesift:patch_glowcap",
+      "thesift:patch_mint_grass",
+      "thesift:patch_pale_lily",
+      "thesift:surface_soul_crystals",
+      "thesift:trees_blue_forest",
+      "thesift:trees_lullaby_hills"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.3
+}

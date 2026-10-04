@@ -1,0 +1,166 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.overworld.jungle",
+        "min_delay": 12000,
+        "max_delay": 24000
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "thesift:nuzzle",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 12
+            },
+            {
+              "type": "thesift:singer",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 5
+            },
+            {
+              "type": "thesift:blub",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 8
+            },
+            {
+              "type": "thesift:bumblehog",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 10
+            }
+          ],
+          "monster": [
+            {
+              "type": "thesift:shade",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 40
+            },
+            {
+              "type": "thesift:gloomstalker",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 30
+            },
+            {
+              "type": "thesift:sifter",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              },
+              "weight": 4
+            }
+          ],
+          "ambient": [
+            {
+              "type": "thesift:lumoth",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 5
+              },
+              "weight": 10
+            }
+          ]
+        }
+      },
+      "modifier": "override"
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:spore_blossom_air"
+          },
+          "probability": 0.006
+        }
+      ],
+      "modifier": "override"
+    },
+    "minecraft:visual/fog_color": "#b8f0c8",
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.3
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#5fd8b0"
+  },
+  "features": [
+    [],
+    [
+      "thesift:lake_ichor_surface"
+    ],
+    [],
+    [
+      "thesift:soul_crystal_geode"
+    ],
+    [],
+    [],
+    [
+      "thesift:blob_meadow_rock_deep",
+      "thesift:blob_rose_marble",
+      "thesift:blob_sift_gravel",
+      "thesift:blob_veilstone",
+      "thesift:ore_jade",
+      "thesift:ore_lumenite",
+      "thesift:ore_meadow_rock",
+      "thesift:ore_sift_coal",
+      "thesift:ore_sift_copper",
+      "thesift:ore_sift_diamond",
+      "thesift:ore_sift_gold",
+      "thesift:ore_sift_iron",
+      "thesift:ore_siftite",
+      "thesift:ore_soul_crystal"
+    ],
+    [
+      "thesift:cave_crystal_columns",
+      "thesift:cave_glowcap",
+      "thesift:spring_ichor",
+      "thesift:spring_water"
+    ],
+    [],
+    [
+      "minecraft:vines",
+      "thesift:fallen_duskwood",
+      "thesift:mega_duskwood_trees",
+      "thesift:patch_blush_grass",
+      "thesift:patch_glow_sprouts",
+      "thesift:patch_glowcap",
+      "thesift:patch_lullaby_bloom",
+      "thesift:trees_sift_jungle"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.95
+}

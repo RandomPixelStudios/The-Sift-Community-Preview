@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "thesift:block/pearl_moss_top",
+    "side": "thesift:block/pearl_moss_side",
+    "bottom": "thesift:block/rust_soil"
+  }
+}

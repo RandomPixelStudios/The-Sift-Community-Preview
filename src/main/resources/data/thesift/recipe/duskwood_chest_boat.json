@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chest_boat",
+  "ingredients": [
+    "minecraft:chest",
+    "thesift:duskwood_boat"
+  ],
+  "result": {
+    "id": "thesift:duskwood_chest_boat"
+  }
+}

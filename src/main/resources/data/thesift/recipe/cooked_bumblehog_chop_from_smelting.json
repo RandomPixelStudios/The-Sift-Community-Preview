@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": "thesift:bumblehog_chop",
+  "result": {
+    "id": "thesift:cooked_bumblehog_chop"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "n": "minecraft:iron_nugget",
+    "S": "thesift:soul_shard"
+  },
+  "pattern": [
+    "nnn",
+    "nSn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "thesift:sift_lantern"
+  }
+}

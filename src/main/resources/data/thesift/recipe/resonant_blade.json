@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " C ",
+    "SBS",
+    " S "
+  ],
+  "key": {
+    "C": "thesift:harmonic_core",
+    "B": "thesift:siftite_sword",
+    "S": "thesift:soul_crystal_block"
+  },
+  "result": {
+    "id": "thesift:resonant_blade"
+  }
+}

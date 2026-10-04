@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "thesift:block/pearlbark_planks",
+    "side": "thesift:block/pearlbark_planks",
+    "top": "thesift:block/pearlbark_planks"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "thesift:lumenite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "thesift:lumenite"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "thesift:lumenite"
+      }
+    ]
+  }
+}

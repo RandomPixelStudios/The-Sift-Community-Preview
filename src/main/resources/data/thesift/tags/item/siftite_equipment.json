@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:siftite_sword",
+    "thesift:siftite_pickaxe",
+    "thesift:siftite_axe",
+    "thesift:siftite_shovel",
+    "thesift:siftite_hoe",
+    "thesift:siftite_helmet",
+    "thesift:siftite_chestplate",
+    "thesift:siftite_leggings",
+    "thesift:siftite_boots",
+    "thesift:resonant_blade"
+  ]
+}

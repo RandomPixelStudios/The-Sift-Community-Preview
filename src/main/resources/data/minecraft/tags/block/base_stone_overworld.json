@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:sift_stone",
+    "thesift:deep_sift_stone",
+    "thesift:veilstone",
+    "thesift:rose_marble"
+  ]
+}

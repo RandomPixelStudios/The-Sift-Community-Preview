@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:pearlbark_log",
+    "thesift:pearlbark_wood",
+    "thesift:stripped_pearlbark_log",
+    "thesift:stripped_pearlbark_wood"
+  ]
+}

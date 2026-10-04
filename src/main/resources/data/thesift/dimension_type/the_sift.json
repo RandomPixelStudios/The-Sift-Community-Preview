@@ -1,0 +1,37 @@
+{
+  "ambient_light": 0.08,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:visual/ambient_light_color": "#1a2a33",
+    "minecraft:visual/cloud_color": "#ccffd6f2",
+    "minecraft:visual/cloud_height": 230.0,
+    "minecraft:visual/fog_color": "#9fe3d9",
+    "minecraft:visual/sky_color": "#5cd6c6",
+    "minecraft:visual/sky_light_color": "#b8f0ff"
+  },
+  "coordinate_scale": 1.0,
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "has_fixed_time": true,
+  "has_skylight": true,
+  "height": 384,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 384,
+  "min_y": -64,
+  "monster_spawn_block_light_limit": 11,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 7,
+    "min_inclusive": 0
+  },
+  "skybox": "overworld"
+}

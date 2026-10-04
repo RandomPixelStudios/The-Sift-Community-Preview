@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:sift_willow_pressure_plate",
+    "thesift:duskwood_pressure_plate",
+    "thesift:pearlbark_pressure_plate"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:siftite_ore",
+    "thesift:raw_siftite_block",
+    "thesift:siftite_block",
+    "thesift:sift_diamond_ore",
+    "thesift:jade_ore"
+  ]
+}

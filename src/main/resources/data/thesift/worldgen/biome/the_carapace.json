@@ -1,0 +1,126 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.overworld.desert",
+        "min_delay": 12000,
+        "max_delay": 24000
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "thesift:shellback",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 14
+            },
+            {
+              "type": "thesift:bumblehog",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 4
+            }
+          ],
+          "monster": [
+            {
+              "type": "thesift:shade",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 40
+            },
+            {
+              "type": "thesift:gloomstalker",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 30
+            }
+          ]
+        }
+      },
+      "modifier": "override"
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:white_ash"
+          },
+          "probability": 0.008
+        }
+      ],
+      "modifier": "override"
+    },
+    "minecraft:visual/fog_color": "#f6d0a8",
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.3
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#e0905a"
+  },
+  "features": [
+    [],
+    [
+      "thesift:lake_ichor_carapace",
+      "thesift:lake_ichor_surface"
+    ],
+    [],
+    [
+      "thesift:soul_crystal_geode"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "thesift:boulder_carapace",
+      "thesift:rock_formations"
+    ],
+    [],
+    [
+      "thesift:blob_meadow_rock_deep",
+      "thesift:blob_rose_marble",
+      "thesift:blob_sift_gravel",
+      "thesift:blob_veilstone",
+      "thesift:ore_jade",
+      "thesift:ore_lumenite",
+      "thesift:ore_meadow_rock",
+      "thesift:ore_sift_coal",
+      "thesift:ore_sift_copper",
+      "thesift:ore_sift_diamond",
+      "thesift:ore_sift_gold",
+      "thesift:ore_sift_iron",
+      "thesift:ore_siftite",
+      "thesift:ore_soul_crystal"
+    ],
+    [
+      "thesift:cave_crystal_columns",
+      "thesift:cave_glowcap",
+      "thesift:spring_ichor",
+      "thesift:spring_water"
+    ],
+    [],
+    [
+      "thesift:patch_sift_thorns_dense"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 1.6
+}

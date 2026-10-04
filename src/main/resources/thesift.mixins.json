@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.randompixxelstudios.thesift.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"PoiTypesAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

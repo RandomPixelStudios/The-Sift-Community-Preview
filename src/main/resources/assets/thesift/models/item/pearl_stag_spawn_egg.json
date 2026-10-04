@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thesift:item/pearl_stag_spawn_egg"
+  }
+}

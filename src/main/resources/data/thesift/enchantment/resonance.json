@@ -1,0 +1,56 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.thesift.resonance"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "minecraft:glowing",
+              "min_duration": 4.0,
+              "max_duration": 4.0,
+              "min_amplifier": 0.0,
+              "max_amplifier": 0.0
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "minecraft:slowness",
+              "min_duration": 2.0,
+              "max_duration": 2.0,
+              "min_amplifier": 0.0,
+              "max_amplifier": 0.0
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 10
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 3,
+  "primary_items": "#minecraft:swords"
+}

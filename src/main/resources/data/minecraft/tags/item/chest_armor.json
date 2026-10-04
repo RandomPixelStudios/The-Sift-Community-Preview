@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:siftite_chestplate",
+    "thesift:carapace_chestplate",
+    "thesift:lumenite_chestplate",
+    "thesift:jade_chestplate",
+    "thesift:warden_chestplate"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "siftite_ingot",
+  "ingredient": "thesift:siftite_ore",
+  "result": {
+    "id": "thesift:siftite_ingot"
+  }
+}

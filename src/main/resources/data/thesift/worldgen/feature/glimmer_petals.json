@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "id": "thesift:glimmer_petals",
+    "properties": {
+      "facing": "north",
+      "flower_amount": "3"
+    }
+  }
+}

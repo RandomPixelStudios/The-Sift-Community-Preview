@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "thesift:carapace"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "thesift:carapace"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "thesift:carapace"
+      }
+    ]
+  }
+}

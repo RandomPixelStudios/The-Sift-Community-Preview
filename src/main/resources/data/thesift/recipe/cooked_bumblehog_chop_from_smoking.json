@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "thesift:bumblehog_chop",
+  "result": {
+    "id": "thesift:cooked_bumblehog_chop"
+  }
+}

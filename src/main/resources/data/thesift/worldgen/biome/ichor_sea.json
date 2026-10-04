@@ -1,0 +1,83 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.overworld.cherry_grove",
+        "min_delay": 12000,
+        "max_delay": 24000
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "water_creature": [
+            {
+              "type": "thesift:ichor_ray",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 10
+            }
+          ]
+        }
+      },
+      "modifier": "override"
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [],
+      "modifier": "override"
+    },
+    "minecraft:visual/fog_color": "#c8d8f6",
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.3
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#b48fff"
+  },
+  "features": [
+    [],
+    [
+      "thesift:lake_ichor_surface"
+    ],
+    [],
+    [
+      "thesift:soul_crystal_geode"
+    ],
+    [],
+    [],
+    [
+      "thesift:blob_meadow_rock_deep",
+      "thesift:blob_rose_marble",
+      "thesift:blob_sift_gravel",
+      "thesift:blob_veilstone",
+      "thesift:ore_jade",
+      "thesift:ore_lumenite",
+      "thesift:ore_meadow_rock",
+      "thesift:ore_sift_coal",
+      "thesift:ore_sift_copper",
+      "thesift:ore_sift_diamond",
+      "thesift:ore_sift_gold",
+      "thesift:ore_sift_iron",
+      "thesift:ore_siftite",
+      "thesift:ore_soul_crystal"
+    ],
+    [
+      "thesift:cave_crystal_columns",
+      "thesift:cave_glowcap",
+      "thesift:spring_ichor",
+      "thesift:spring_water"
+    ],
+    [],
+    [],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.6
+}

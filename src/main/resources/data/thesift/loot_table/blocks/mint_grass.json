@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition": "minecraft:tool/can_shear",
+          "name": "thesift:mint_grass"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "thesift:blocks/mint_grass"
+}

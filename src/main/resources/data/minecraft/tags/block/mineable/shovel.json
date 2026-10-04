@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:blushing_moss",
+    "thesift:glowmoss",
+    "thesift:carapace_sand",
+    "thesift:rust_soil",
+    "thesift:verdant_turf",
+    "thesift:dusk_turf",
+    "thesift:pearl_moss",
+    "thesift:sift_sand",
+    "thesift:sift_gravel"
+  ]
+}

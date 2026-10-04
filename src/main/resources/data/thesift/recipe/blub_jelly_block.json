@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thesift:blub_jelly",
+    "thesift:blub_jelly",
+    "thesift:blub_jelly",
+    "thesift:blub_jelly",
+    "thesift:blub_jelly",
+    "thesift:blub_jelly",
+    "thesift:blub_jelly",
+    "thesift:blub_jelly",
+    "thesift:blub_jelly"
+  ],
+  "result": {
+    "id": "minecraft:slime_block"
+  }
+}

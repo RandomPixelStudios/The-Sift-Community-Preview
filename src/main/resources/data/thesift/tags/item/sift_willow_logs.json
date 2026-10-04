@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thesift:sift_willow_log",
+    "thesift:sift_willow_wood",
+    "thesift:stripped_sift_willow_log",
+    "thesift:stripped_sift_willow_wood"
+  ]
+}
